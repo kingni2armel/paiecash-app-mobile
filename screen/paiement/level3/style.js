@@ -1,0 +1,90 @@
+import { StyleSheet } from "react-native";
+import { colors } from "../../../styles";
+export const styles = StyleSheet.create({
+    container: {
+    flex:1,
+      backgroundColor: colors.PRIMARY,
+      padding: 30,
+      alignItem:"center"
+     
+    },
+    MesssageSuccess:{
+        color:colors.WHITE,
+        fontSize:20,
+        marginTop:15
+    },
+    MesssageSuccess2:{
+        color:colors.WHITE,
+        fontSize:20,
+        textAlign:"center"
+    },
+    ImageSlide1:{
+        fontSize:90,
+        marginLeft:15,
+        marginLeft:100,
+        marginTop:25,
+        color:colors.WHITE
+      },
+      containerPrix:{
+            marginTop:50
+      },
+      Prix:{
+            textAlign:"center",
+            color:colors.WHITE,
+            fontWeight:"bold",
+            fontSize:30,
+      },
+      textPaye1:{
+            textAlign:"center",
+            color:colors.WHITE
+      },
+      textPaye2:{
+        textAlign:"center",
+        color:colors.WHITE,
+        fontWeight:"bold",
+        fontSize:30,
+
+  },
+    btnPaiement2:{
+        backgroundColor:colors.WHITE,
+        width:300,
+        height:60,
+        margin:5,
+        borderRadius:5,
+        color:colors.BLACK
+    },
+    btnPaiement1:{
+        backgroundColor:colors.PRIMARY,
+        width:250,
+        height:60,
+        margin:5,
+        borderRadius:35,
+        color:colors.WHITE,
+        marginLeft:30,
+        borderColor:colors.WHITE,
+        borderWidth:2
+    },
+    textStart:{
+        textAlign:"center",
+        marginTop:15,
+        fontSize:18,
+        fontWeight:"bold"
+    },
+    textStart2:{
+        textAlign:"center",
+        marginTop:15,
+        fontSize:18,
+        fontWeight:"bold",
+        color:colors.WHITE
+    },
+    containerButton:{
+        marginTop:45
+    },
+    LastText:{
+        color:colors.WHITE,
+        marginTop:15
+    },
+    IconImprimer:{
+        fontSize:24
+    }
+  });
